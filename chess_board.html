@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chess Board</title>
+<style>
+    .board {
+        width: 480px;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        margin: 40px auto;
+        font-size: 42px;
+        font-family: 'Segoe UI Symbol', 'Arial Unicode MS', sans-serif;
+        font-weight: 900;
+    }
+
+    .cell {
+        aspect-ratio: 1 / 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .light { background: white; }
+    .dark { background: #00b3b3; }
+</style>
+</head>
+<body>
+
+<div class="board">
+
+    <div class="cell dark">♜</div><div class="cell light">♞</div><div class="cell dark">♝</div><div class="cell light">♛</div>
+    <div class="cell dark">♚</div><div class="cell light">♝</div><div class="cell dark">♞</div><div class="cell light">♜</div>
+
+    <div class="cell light">♟</div><div class="cell dark">♟</div><div class="cell light">♟</div><div class="cell dark">♟</div>
+    <div class="cell light">♟</div><div class="cell dark">♟</div><div class="cell light">♟</div><div class="cell dark">♟</div>
+
+    <div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div>
+    <div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div>
+
+    <div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div>
+    <div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div>
+
+    <div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div>
+    <div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div>
+
+    <div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div>
+    <div class="cell light"></div><div class="cell dark"></div><div class="cell light"></div><div class="cell dark"></div>
+
+    <div class="cell dark">♙</div><div class="cell light">♙</div><div class="cell dark">♙</div><div class="cell light">♙</div>
+    <div class="cell dark">♙</div><div class="cell light">♙</div><div class="cell dark">♙</div><div class="cell light">♙</div>
+
+    <div class="cell light">♖</div><div class="cell dark">♘</div><div class="cell light">♗</div><div class="cell dark">♕</div>
+    <div class="cell light">♔</div><div class="cell dark">♗</div><div class="cell light">♘</div><div class="cell dark">♖</div>
+
+</div>
+
+</body>
+</html>
